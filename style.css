@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aliceblue;
+}
+main{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    height: 100vh;
+}
+@media only screen and (max-width: 600px) {
+    main {
+      width:unset;
+      flex-direction: column;
+      align-items: unset;
+    }
+}
+img{
+    margin: 10px;
+}
+
+/*.container{
+    display: flex;
+    justify-content: center;
+}*/
+h2{
+    color: hsl(0, 0%, 95%);
+    margin-top: 40px;
+    text-align: justify;
+    padding-left: 30px;
+}
+
+.sedan{
+    border: 1px groove black;
+    width: 50%;
+    background-color: hsl(31, 77%, 52%);
+    min-height: 400px;
+    
+}
+.suv{
+    border: 1px groove black;
+    width: 50%;
+    min-height: 400px;
+    background-color: hsl(184, 100%, 22%);
+    
+}
+.luxury{
+    border: 1px groove black;
+    width: 50%;
+    min-height: 400px;
+    background-color: hsl(179, 100%, 13%);
+    
+}
+
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-weight: 100;
+    padding: 2em;
+    text-align: justify;
+    
+}
+
+button{
+    border-radius: 20px;
+    width: 110px;
+    height: 40px;     
+     margin-left: 20px;
+      
+}
+.sedanbutton{    
+    background-color: hsl(0, 0%, 95%); 
+    color: hsl(31, 77%, 52%);   
+}
+.suvbutton{    
+    background-color: hsl(0, 0%, 95%); 
+    color: hsl(184, 100%, 22%); 
+    
+}
+.suvbutton{    
+    background-color: hsl(0, 0%, 95%); 
+    color: hsl(179, 100%, 13%); 
+    
+}
